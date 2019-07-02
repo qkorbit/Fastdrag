@@ -1,0 +1,9 @@
+{
+  "extends": "tslint:recommended",
+  "defaultSeverity": "warn",
+  "rules": {
+    "space-before-function-paren": false,
+    "semicolon": [true, "never"],
+    "triple-equals": false
+  }
+}

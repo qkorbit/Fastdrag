@@ -1,0 +1,46 @@
+{
+  "name": "fastdrag",
+  "version": "0.1.0",
+  "main": "dist/fastdrag.js",
+  "scripts": {
+    "build:prod": "rollup -c ./script/rollup.config.js --environment NODE_ENV:production",
+    "build:dev": "rollup -c ./script/rollup.config.js --environment NODE_ENV:development",
+    "build": "npm run build:dev&&npm run build:prod",
+    "dev": "rollup -c ./script/rollup.config.js -w",
+    "lint": "tslint --project ./ --fix",
+    "docs:html": "typedoc src/index.ts --module umd --target es5 --mode modules --theme minimal --out docs --excludePrivate"
+  },
+  "author": "qkorbit <qkorbit@live.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/qkorbit/fastdrag#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qkorbit/fastdrag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qkorbit/fastdrag/issues"
+  },
+  "devDependencies": {
+    "rollup": "^1.16.4",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-filesize": "^6.1.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.21.2",
+    "rollup-plugin-uglify": "^6.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.5.2"
+  },
+  "keywords": [
+    "front-end",
+    "javascript",
+    "typescript",
+    "drag",
+    "drop",
+    "drag-drop",
+    "fastdrag",
+    "component",
+    "dragging"
+  ]
+}

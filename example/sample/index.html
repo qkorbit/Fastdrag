@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Samply Fastdrag</title>
+</head>
+<body>
+  <style>
+    #demo {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 300px;
+      left: 300px;
+      background-color: bisque;
+    }
+  </style>
+  <div id="demo"></div>
+  <script src="../../dist/fastdrag.js"></script>
+  <script>
+  let demo = document.getElementById('demo')
+  let instance = new Fastdrag({
+    el: demo
+  })
+
+  </script>
+</body>
+</html>

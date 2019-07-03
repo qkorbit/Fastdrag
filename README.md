@@ -4,6 +4,8 @@
 
 A fast and lovely drag & drop library.
 
+![demo](https://raw.githubusercontent.com/qkorbit/Fastdrag/master/example/show.gif)
+
 ## Features
 
 * 👌 Easy to use
@@ -30,7 +32,7 @@ import Fastdrag from 'Fastdrag'
 Or via CDN:
 
 ```html
-<script src="https://unpkg.com/fastdrag@0.1.1/dist/fastdrag.min.js"></script>
+<script src="https://unpkg.com/fastdrag@latest/dist/fastdrag.min.js"></script>
 ```
 
 ### Examples
